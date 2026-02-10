@@ -159,7 +159,3 @@ Apache 2.0 — feel free to use and modify.
 Data2Dash builds intelligent data systems that convert complex information into actionable insights using AI.
 
 ⭐ If you find this project useful — consider giving it a star!
-<img width="1809" height="811" alt="image" src="https://github.com/user-attachments/assets/0e7a898d-d45b-4e4d-93e0-872b9b2fd3c8" />
-
-<img width="1416" height="781" alt="image" src="https://github.com/user-attachments/assets/068a78d1-d150-42b7-a9dd-578466843767" />
-
