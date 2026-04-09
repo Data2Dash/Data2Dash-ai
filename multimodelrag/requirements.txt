@@ -1,0 +1,35 @@
+# ═══════════════════════════════════════════════════════════════════════════
+#  Professional Multimodal RAG System V9.0 — Requirements
+# ═══════════════════════════════════════════════════════════════════════════
+
+# ── PDF Processing ──────────────────────────────────────────────────────────
+PyMuPDF>=1.23.0
+pillow>=10.0.0
+pdfplumber
+
+# ── Vector Store & Embeddings ────────────────────────────────────────────────
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.2
+numpy>=1.24.0
+
+# ── LLM & API ────────────────────────────────────────────────────────────────
+groq>=0.4.0
+python-dotenv>=1.0.0
+
+# ── Retrieval Enhancement ────────────────────────────────────────────────────
+rank-bm25>=0.2.2
+
+# ── Web Framework ────────────────────────────────────────────────────────────
+streamlit>=1.28.0
+
+# ── Data & Utilities ─────────────────────────────────────────────────────────
+tqdm>=4.66.0
+pandas>=2.0.0
+openpyxl>=3.1.0           # Excel export for tables
+
+# ── Equation Rendering ───────────────────────────────────────────────────────
+matplotlib>=3.7.0          # Image fallback for broken LaTeX equations
+
+# ── Optional (better embeddings) ─────────────────────────────────────────────
+transformers>=4.35.0
+torch>=2.0.0
