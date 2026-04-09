@@ -1,0 +1,125 @@
+# ====================================
+# Python Multi-Modal RAG System
+# .gitignore
+# ====================================
+
+# ==================== PYTHON ====================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==================== VIRTUAL ENVIRONMENTS ====================
+venv/
+ENV/
+env/
+.venv
+
+# ==================== ENVIRONMENT VARIABLES ====================
+.env
+.env.local
+.env.*.local
+
+# ==================== LOGS ====================
+*.log
+logs/
+multimodal_rag.log
+rag_chatbot.log
+rag_chatbot_v2.log
+
+# ==================== CACHE ====================
+cache/
+.cache/
+*.cache
+__pycache__/
+
+# ==================== DATA & MODELS ====================
+*.pdf
+*.docx
+*.pptx
+research_papers/
+uploaded_docs/
+extracted_content/
+
+# Vector store files
+*.index
+*.pkl
+*.faiss
+
+# Embeddings cache
+embeddings_cache/
+
+# ==================== JUPYTER ====================
+.ipynb_checkpoints/
+*.ipynb
+
+# ==================== IDE ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ==================== OS ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==================== TEMPORARY FILES ====================
+tmp/
+temp/
+*.tmp
+*.bak
+
+# ==================== STREAMLIT ====================
+.streamlit/secrets.toml
+
+# ==================== TEST OUTPUT ====================
+test_output/
+test_results/
+
+# ==================== DATABASE ====================
+*.db
+*.sqlite
+*.sqlite3
+
+# ==================== SENSITIVE DATA ====================
+*_private*
+*_secret*
+api_keys.txt
+credentials.json
+
+# ==================== COMPILED ====================
+*.pyc
+*.pyo
+
+# ==================== PACKAGING ====================
+*.tar.gz
+*.zip
+*.rar
+
+# ==================== NODE (if using any JS) ====================
+node_modules/
+package-lock.json
+
+# ==================== KEEP THESE ====================
+!.env.example
+!requirements*.txt
+!README*.md
+!*.py
