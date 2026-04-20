@@ -1,0 +1,17 @@
+# Core
+python-dotenv
+requests
+pandas
+numpy
+sentence-transformers>=2.2.0
+streamlit
+plotly
+arxiv
+langchain
+langchain-community
+langchain-core
+langchain-groq
+duckduckgo-search
+wikipedia
+fastapi
+uvicorn
